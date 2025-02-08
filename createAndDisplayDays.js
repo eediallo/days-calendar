@@ -8,6 +8,7 @@ function createAndDisplayDays() {
   const daysList = weekdays.map(createHeaderCeil);
   console.log(daysList);
   thR.append(...daysList);
+  thR.classList.add("tableHeader");
   thHeader.append(thR);
   calendarEl.append(thHeader);
 }
