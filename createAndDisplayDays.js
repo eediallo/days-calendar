@@ -1,7 +1,10 @@
 import { createCeil } from "./createCeil.js";
+import {weekdays} from "./data.js";
 const calendarEl = document.querySelector("#calendar-container");
-function createAndDisplayDays(days) {
-  const daysList = days.map(createCeil);
+console.log(calendarEl);
+function createAndDisplayDays() {
+  const daysList = weekdays.map(createCeil);
+  console.log(daysList);
   calendarEl.append(...daysList);
 }
 

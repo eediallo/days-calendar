@@ -1,4 +1,4 @@
-import { createAndDisplayDays } from "./createAndDisplayDays";
+import { createAndDisplayDays } from "./createAndDisplayDays.js";
 
 function main() {
   createAndDisplayDays();
