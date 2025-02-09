@@ -2,7 +2,7 @@ import { calendarContainerEl, monthSelect, yearSelect } from "../queries.js";
 import { displayCalendar } from "../calendar/displayCalendar.js";
 import { calendarConfig } from "../calendar/calendarConfig.js";
 
-export function jumbHandler() {
+export function jumpHandler() {
   calendarContainerEl.innerHTML = "";
   const selectedMonth = parseInt(monthSelect.value);
   const selectedYear = parseInt(yearSelect.value);
