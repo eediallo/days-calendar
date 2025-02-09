@@ -1,4 +1,4 @@
-import { createAndDisplayDays } from "./createAndDisplayDays.js";
+import { createAndDisplayDays } from "./calendar/createAndDisplayDays.js";
 import { createAndDisplayWeekDays } from "./createAndDisplayWeekDays.js";
 import { createMonthYearEl } from "./calendar/createMonthYearEl.js";
 function main() {
