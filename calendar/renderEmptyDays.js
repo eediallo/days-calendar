@@ -8,8 +8,9 @@ function createEmptyDay() {
   return emptyDay;
 }
 
-export function renderEmptyDays() {
-  for (let i = 0; i < calendarConfig.startingDay; i++) {
+export function renderEmptyDays(date) {
+  const startingDay = calendarConfig.getStartingDay(date);
+  for (let i = 0; i < startingDay; i++) {
     calendarContainerEl.appendChild(createEmptyDay());
   }
 }
