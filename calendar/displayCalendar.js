@@ -3,9 +3,9 @@ import { renderEmptyDays } from "./renderEmptyDays.js";
 import { renderWeekdays } from "./renderWeekDays.js";
 import { renderDaysInMonth } from "./createAndRenderDaysInMonth.js";
 
-export function displayCalendar() {
-  createMonthYearEl();
+export function displayCalendar(date) {
+  createMonthYearEl(date);
   renderWeekdays();
-  renderEmptyDays();
-  renderDaysInMonth();
+  renderEmptyDays(date);
+  renderDaysInMonth(date);
 }
