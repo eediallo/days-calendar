@@ -5,5 +5,5 @@ import { calendarConfig } from "./calendarConfig.js";
 export function createMonthYearEl(date) {
   const month = calendarConfig.getMonth(date);
   const year = calendarConfig.getYear(date);
-  monthYearEl.textContent = `${monthNames[month]} ${year}`;
+  monthYearEl.textContent = `${monthNames[month].name} ${year}`;
 }
