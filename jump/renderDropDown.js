@@ -1,5 +1,5 @@
-import { renderMonthDropDown } from "./renderMonthList.js";
-import { renderYearDropDown } from "./renderYearList.js";
+import { renderMonthDropDown } from "./renderMonthDropDown.js";
+import { renderYearDropDown } from "./renderYearDropDown.js";
 
 export function renderDropDowns() {
   renderYearDropDown();
