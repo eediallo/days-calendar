@@ -1,5 +1,5 @@
 import { createHeaderCeil } from "./createHeaderCeil.js";
-import { weekdays } from "./data.js";
+import { weekdays } from "./data/data.js";
 const calendarEl = document.querySelector("#calendar-container");
 console.log(calendarEl);
 function createAndDisplayDays() {
