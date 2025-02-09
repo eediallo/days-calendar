@@ -1,8 +1,8 @@
 import { nexMonthEl, prevMonthEl } from "../queries.js";
 import { nextMonthHandler } from "./nextMonthHandler.js";
-import { handlePrevMonth } from "./prevMonthHandler.js";
+import { prevMonthHandler } from "./prevMonthHandler.js";
 
 export function eventHandlers() {
-  prevMonthEl.addEventListener("click", handlePrevMonth);
+  prevMonthEl.addEventListener("click", prevMonthHandler);
   nexMonthEl.addEventListener("click", nextMonthHandler);
 }
