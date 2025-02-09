@@ -1,11 +1,40 @@
 
-table, tr, td, th{
-    border: 1px solid, black;
-}
-
-th {
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  .calendar {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  .calendar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .calendar-header h2 {
+    margin: 0;
+  }
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  .calendar-day {
+    text-align: center;
     padding: 10px;
-}
-table {
-    border-collapse: collapse;
-}
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .calendar-day.empty {
+    background-color: #f9f9f9;
+    border: none;
+  }
