@@ -2,7 +2,7 @@ import { renderWeekdays } from "./calendar/renderWeekDays.js";
 import { createAndDisplayWeekDays } from "./createAndDisplayWeekDays.js";
 import { createMonthYearEl } from "./calendar/createMonthYearEl.js";
 function main() {
-  createMonthYearEl(new Date());
+  createMonthYearEl();
   renderWeekdays();
   createAndDisplayWeekDays();
 }
