@@ -8,8 +8,9 @@ function createDayMonth(day) {
   return dayElement;
 }
 
-export function renderDaysInMonth() {
-  for (let day = 1; day <= calendarConfig.daysInMonth; day++) {
+export function renderDaysInMonth(date) {
+  const daysInMonth = calendarConfig.getDaysInMonth(date);
+  for (let day = 1; day <= daysInMonth; day++) {
     calendarContainerEl.append(createDayMonth(day));
   }
 }
