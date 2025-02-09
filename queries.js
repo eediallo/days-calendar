@@ -4,6 +4,7 @@ const prevMonthEl = document.querySelector("#prev-month");
 const nexMonthEl = document.querySelector("#next-month");
 const monthSelect = document.querySelector("#month-select");
 const yearSelect = document.querySelector("#year-select");
+const goBtn = document.querySelector("#go-button");
 
 export {
   monthYearEl,
@@ -12,4 +13,5 @@ export {
   nexMonthEl,
   monthSelect,
   yearSelect,
+  goBtn,
 };
