@@ -1,16 +1,19 @@
-const date = new Date();
-const year = date.getFullYear();
-const month = date.getMonth();
-const firstDayOfMonth = new Date(year, month, 1);
-const daysInMonth = new Date(year, month + 1, 0).getDate();
-const startingDay =
-  firstDayOfMonth.getDay() === 0 ? 6 : firstDayOfMonth.getDay() - 1;
+const currentDate = new Date();
+const getYear = (date) => date.getFullYear();
+const getMonth = (date) => date.getMonth();
+const getFirstDayOfMonth = (date) => new Date(getYear(date), getMonth(date), 1);
+const getDaysInMonth = (date) =>
+  new Date(getYear(date), getMonth(date) + 1, 0).getDate();
+const getStartingDay = (date) => {
+  const firstDayOfMonth = getFirstDayOfMonth(date);
+  return firstDayOfMonth.getDay() === 0 ? 6 : firstDayOfMonth.getDay() - 1;
+};
 
 export const calendarConfig = {
-  date,
-  year,
-  month,
-  firstDayOfMonth,
-  daysInMonth,
-  startingDay,
+  getYear,
+  getFirstDayOfMonth,
+  getDaysInMonth,
+  getStartingDay,
+  getMonth,
+  currentDate,
 };
