@@ -58,3 +58,22 @@ function generateICalEntry(commemorativeDay, date) {
       DESCRIPTION:${commemorativeDay.descriptionURL}
       END:VEVENT`;
 }
+
+function generateICalFile() {
+  let icalContent = `BEGIN:VCALENDAR
+    VERSION:2.0
+    PRODID:-//Special Days Calendar//EN
+    CALSCALE:GREGORIAN
+    METHOD:PUBLISH
+    `;
+
+  for (let year = 2020; year <= 2030; year++) {
+    for (const commemorativeDay of commemorativeDays) {
+      const date = getCommemorativeDayDate(year, commemorativeDay);
+      icalContent += generateICalEntry(commemorativeDay, date) + "\n";
+    }
+  }
+
+  icalContent += "END:VCALENDAR";
+  return icalContent;
+}
