@@ -1,4 +1,3 @@
-import { type } from "node:os";
 import { weekdays } from "../data/data.js";
 
 describe("weekdays", () => {
