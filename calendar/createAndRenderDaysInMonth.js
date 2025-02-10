@@ -1,6 +1,7 @@
 import { commemorativeDays } from "../CommemorativeDays/loadCommemorativeDays.js";
 import { calendarContainerEl } from "../queries.js";
 import { calendarConfig } from "./calendarConfig.js";
+import { renderEmptyDays } from "./renderEmptyDays.js"; // Import the function
 
 function isCommemorativeDay(day, date, event) {
   const eventDate = new Date(event.date);
@@ -32,23 +33,12 @@ function createDayMonth(day, date) {
   return dayElement;
 }
 
-function createEmptyDayElement() {
-  const emptyDay = document.createElement("div");
-  emptyDay.classList.add("calendar-day", "empty");
-  return emptyDay;
-}
-
 export function renderDaysInMonth(date) {
   calendarContainerEl.innerHTML = "";
 
-  const daysInMonth = calendarConfig.getDaysInMonth(date);
-  const firstDay = new Date(date.getFullYear(), date.getMonth(), 1);
-  const firstDayOfWeek = firstDay.getDay();
+  renderEmptyDays(date);
 
-  const emptyDaysCount = firstDayOfWeek === 0 ? 6 : firstDayOfWeek - 1;
-  for (let i = 0; i < emptyDaysCount; i++) {
-    calendarContainerEl.appendChild(createEmptyDayElement());
-  }
+  const daysInMonth = calendarConfig.getDaysInMonth(date);
 
   for (let day = 1; day <= daysInMonth; day++) {
     calendarContainerEl.append(createDayMonth(day, date));
