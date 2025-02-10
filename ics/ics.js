@@ -77,3 +77,5 @@ function generateICalFile() {
   icalContent += "END:VCALENDAR";
   return icalContent;
 }
+
+console.log(generateICalFile());
