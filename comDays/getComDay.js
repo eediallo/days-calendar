@@ -1,6 +1,5 @@
 import { datesConfig } from "../datesConfig.js";
-import { commemorativeDays } from "../data/comDays.js";
-import { monthNames } from "../data/data.js";
+import { commemorativeDays, monthNames } from "../data/data.js";
 import { getCommemorativeDayDate } from "./getComDate.js";
 
 export function getCommemorativeDay(day) {
