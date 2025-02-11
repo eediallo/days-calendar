@@ -1,9 +1,9 @@
 import { monthNames } from "../data/data.js";
 import {
-  firstOccurrence,
-  secondOccurrence,
-  thirdOccurrence,
-  lastOccurrence,
+  isFirstOccurrence,
+  isSecondOccurrence,
+  isThirdOccurrence,
+  isLastOccurrence,
 } from "./occurrences.js";
 
 export function getCommemorativeDayDate(year, commemorativeDay) {
@@ -24,10 +24,10 @@ export function getCommemorativeDayDate(year, commemorativeDay) {
 
   // Adjust for the specified occurrence
   while (
-    !firstOccurrence(occurence, date.getUTCDate()) &&
-    !secondOccurrence(occurence, date.getUTCDate()) &&
-    !thirdOccurrence(occurence, date.getUTCDate()) &&
-    !lastOccurrence(occurence, date.getUTCDate(), year, month)
+    !isFirstOccurrence(occurence, date.getUTCDate()) &&
+    !isSecondOccurrence(occurence, date.getUTCDate()) &&
+    !isThirdOccurrence(occurence, date.getUTCDate()) &&
+    !isLastOccurrence(occurence, date.getUTCDate(), year, month)
   ) {
     date.setUTCDate(date.getUTCDate() + 7);
   }
