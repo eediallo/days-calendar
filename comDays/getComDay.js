@@ -1,12 +1,7 @@
 import { calendarConfig } from "../calendar/calendarConfig.js";
 import { commemorativeDays } from "../data/comDays.js";
 import { monthNames } from "../data/data.js";
-import {
-  firstOccurrence,
-  secondOccurrence,
-  thirdOccurrence,
-  lastOccurrence,
-} from "./occurrences.js";
+import { getCommemorativeDayDate } from "../ics/getComDate.js";
 
 export function getCommemorativeDay(day) {
   const year = calendarConfig.getYear(calendarConfig.currentDate);
@@ -20,15 +15,8 @@ export function getCommemorativeDay(day) {
       commemorativeDay.monthName === monthNames[month].name &&
       commemorativeDay.dayName === dayName
     ) {
-      const occurence = commemorativeDay.occurence;
-      const dayOfMonth = date.getDate();
-
-      if (
-        firstOccurrence(occurence, dayOfMonth) ||
-        secondOccurrence(occurence, dayOfMonth) ||
-        thirdOccurrence(occurence, dayOfMonth) ||
-        lastOccurrence(occurence, dayOfMonth, year, month)
-      ) {
+      const calculatedDate = getCommemorativeDayDate(year, commemorativeDay);
+      if (calculatedDate.getUTCDate() === day) {
         return commemorativeDay;
       }
     }
