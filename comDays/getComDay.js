@@ -1,7 +1,7 @@
 import { calendarConfig } from "../calendar/calendarConfig.js";
 import { commemorativeDays } from "../data/comDays.js";
 import { monthNames } from "../data/data.js";
-import { getCommemorativeDayDate } from "../ics/getComDate.js";
+import { getCommemorativeDayDate } from "./getComDate.js";
 
 export function getCommemorativeDay(day) {
   const year = calendarConfig.getYear(calendarConfig.currentDate);
