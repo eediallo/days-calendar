@@ -10,12 +10,22 @@ export function getCommemorativeDayDate(year, commemorativeDay) {
 
   calendarConfig.currentDate = new Date(year, month, 1);
 
+  advanceToNextWeekday(dayName);
+
+  advanceToCommemorativeOccurrence(occurence, year, month, dayName);
+
+  return calendarConfig.currentDate;
+}
+
+function advanceToNextWeekday(dayName) {
   while (calendarConfig.currentDate.getDay() !== weekdays.indexOf(dayName)) {
     calendarConfig.currentDate.setDate(
       calendarConfig.currentDate.getDate() + 1
     );
   }
+}
 
+function advanceToCommemorativeOccurrence(occurence, year, month, dayName) {
   if (occurence === "second") {
     calendarConfig.currentDate.setDate(
       calendarConfig.currentDate.getDate() + 7
@@ -27,12 +37,6 @@ export function getCommemorativeDayDate(year, commemorativeDay) {
   } else if (occurence === "last") {
     const lastDayOfMonth = new Date(year, month + 1, 0).getDate();
     calendarConfig.currentDate.setDate(lastDayOfMonth - 6);
-    while (calendarConfig.currentDate.getDay() !== weekdays.indexOf(dayName)) {
-      calendarConfig.currentDate.setDate(
-        calendarConfig.currentDate.getDate() + 1
-      );
-    }
+    advanceToNextWeekday(dayName);
   }
-
-  return calendarConfig.currentDate;
 }
