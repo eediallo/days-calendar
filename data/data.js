@@ -8,7 +8,6 @@ export const weekdays = [
   "Sunday",
 ];
 
-
 export const monthNames = [
   { id: 0, name: "January" },
   { id: 1, name: "February" },
@@ -23,4 +22,3 @@ export const monthNames = [
   { id: 10, name: "November" },
   { id: 11, name: "December" },
 ];
-
