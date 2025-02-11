@@ -1,6 +1,6 @@
 import { commemorativeDays } from "../data/comDays.js";
 import { generateICalEntry } from "./generateCalEntry.js";
-import { getCommemorativeDayDate } from "./getComDate.js";
+import { getCommemorativeDayDate } from "../comDays/getComDate.js";
 
 function generateICalFile() {
   let icalContent = `BEGIN:VCALENDAR
