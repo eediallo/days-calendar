@@ -1,4 +1,4 @@
-import { monthNames, weekdays } from "../data/data.js";
+import { monthNames } from "../data/data.js";
 import {
   firstOccurrence,
   secondOccurrence,
@@ -12,24 +12,24 @@ export function getCommemorativeDayDate(year, commemorativeDay) {
   const targetDayName = commemorativeDay.dayName;
   const occurence = commemorativeDay.occurence;
 
-  // Get the first day of the month
-  let date = new Date(year, month, 1);
+  let date = new Date(Date.UTC(year, month, 1));
 
   // Find the first occurrence of the target day
   while (
-    date.toLocaleDateString("en-GB", { weekday: "long" }) !== targetDayName
+    date.toLocaleDateString("en-GB", { weekday: "long", timeZone: "UTC" }) !==
+    targetDayName
   ) {
-    date.setDate(date.getDate() + 1);
+    date.setUTCDate(date.getUTCDate() + 1);
   }
 
   // Adjust for the specified occurrence
   while (
-    !firstOccurrence(occurence, date.getDate()) &&
-    !secondOccurrence(occurence, date.getDate()) &&
-    !thirdOccurrence(occurence, date.getDate()) &&
-    !lastOccurrence(occurence, date.getDate(), year, month)
+    !firstOccurrence(occurence, date.getUTCDate()) &&
+    !secondOccurrence(occurence, date.getUTCDate()) &&
+    !thirdOccurrence(occurence, date.getUTCDate()) &&
+    !lastOccurrence(occurence, date.getUTCDate(), year, month)
   ) {
-    date.setDate(date.getDate() + 7);
+    date.setUTCDate(date.getUTCDate() + 7);
   }
 
   return date;
