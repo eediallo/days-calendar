@@ -1,4 +1,4 @@
-import { calendarConfig } from "../Webcalendar/calendarConfig.js";
+import { calendarConfig } from "../webCalendar/calendarConfig.js";
 
 describe("getMonth", () => {
   test("should return current month", () => {

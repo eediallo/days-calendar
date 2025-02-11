@@ -1,4 +1,4 @@
-import { calendarConfig } from "../Webcalendar/calendarConfig.js";
+import { calendarConfig } from "../webCalendar/calendarConfig.js";
 import { monthNames } from "../data/data.js";
 import { monthSelect } from "../queries.js";
 import { createMonthOption } from "./createMonthOption.js";

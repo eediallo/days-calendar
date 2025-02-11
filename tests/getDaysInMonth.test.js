@@ -1,4 +1,4 @@
-import { calendarConfig } from "../Webcalendar/calendarConfig.js";
+import { calendarConfig } from "../webCalendar/calendarConfig.js";
 
 describe("getDaysInMonth", () => {
   test("should return number of days of current Month", () => {

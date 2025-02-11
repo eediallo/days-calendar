@@ -1,5 +1,5 @@
-import { calendarConfig } from "../Webcalendar/calendarConfig.js";
-import { displayCalendar } from "../Webcalendar/displayCalendar.js";
+import { calendarConfig } from "../webCalendar/calendarConfig.js";
+import { displayCalendar } from "../webCalendar/displayCalendar.js";
 import { calendarContainerEl } from "../queries.js";
 export function prevMonthHandler() {
   calendarContainerEl.innerHTML = "";
