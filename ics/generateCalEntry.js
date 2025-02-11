@@ -1,8 +1,9 @@
 export function generateICalEntry(commemorativeDay, date) {
-  const startDate = date.toISOString().replace(/-|:|\.\d\d\d/g, ""); // Format: YYYYMMDDTHHMMSSZ
+  const dateFormatRegex = /-|:|\.\d\d\d/g;
+  const startDate = date.toISOString().replace(dateFormatRegex, ""); // Format: YYYYMMDDTHHMMSSZ
   const endDate = new Date(date.getTime() + 24 * 60 * 60 * 1000)
     .toISOString()
-    .replace(/-|:|\.\d\d\d/g, ""); // Add 1 day
+    .replace(dateFormatRegex, ""); // Add 1 day
 
   return `BEGIN:VEVENT
 UID:${Math.random().toString(36).substring(2)}@commemorativeDays.com
