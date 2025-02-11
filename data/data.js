@@ -8,13 +8,6 @@ export const weekdays = [
   "Sunday",
 ];
 
-function populateDaysOfMonth() {
-  const daysOfMonth = [];
-  for (let i = 1; i <= 31; i++) {
-    daysOfMonth.push(i);
-  }
-  return daysOfMonth;
-}
 
 export const monthNames = [
   { id: 0, name: "January" },
@@ -31,4 +24,3 @@ export const monthNames = [
   { id: 11, name: "December" },
 ];
 
-export { populateDaysOfMonth };
