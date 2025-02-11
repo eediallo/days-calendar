@@ -5,7 +5,7 @@ import { renderDropDowns } from "./jump/renderDropDown.js";
 
 function main() {
   displayCalendar(datesConfig.currentDate);
-  attachEventHandlers();
   renderDropDowns();
+  attachEventHandlers();
 }
 window.onload = main;
