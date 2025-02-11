@@ -1,6 +1,6 @@
 import { calendarContainerEl, monthSelect, yearSelect } from "../queries.js";
-import { displayCalendar } from "../calendar/displayCalendar.js";
-import { calendarConfig } from "../calendar/calendarConfig.js";
+import { displayCalendar } from "../Webcalendar/displayCalendar.js";
+import { calendarConfig } from "../Webcalendar/calendarConfig.js";
 
 export function jumpHandler() {
   calendarContainerEl.innerHTML = "";

@@ -1,4 +1,4 @@
-import { calendarConfig } from "../calendar/calendarConfig.js";
+import { calendarConfig } from "../Webcalendar/calendarConfig.js";
 import { yearSelect } from "../queries.js";
 import { createYearOption } from "./createYearOption.js";
 

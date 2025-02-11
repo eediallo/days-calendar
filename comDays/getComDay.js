@@ -1,4 +1,4 @@
-import { calendarConfig } from "../calendar/calendarConfig.js";
+import { calendarConfig } from "../Webcalendar/calendarConfig.js";
 import { commemorativeDays } from "../data/comDays.js";
 import { monthNames } from "../data/data.js";
 import { getCommemorativeDayDate } from "./getComDate.js";

@@ -1,4 +1,4 @@
-import { calendarConfig } from "../calendar/calendarConfig.js";
+import { calendarConfig } from "../Webcalendar/calendarConfig.js";
 
 describe("getYear", () => {
   test("should return current year", () => {

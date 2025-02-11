@@ -1,6 +1,6 @@
-import { calendarConfig } from "../calendar/calendarConfig.js";
+import { calendarConfig } from "../Webcalendar/calendarConfig.js";
 import { calendarContainerEl } from "../queries.js";
-import { displayCalendar } from "../calendar/displayCalendar.js";
+import { displayCalendar } from "../Webcalendar/displayCalendar.js";
 
 export function nextMonthHandler() {
   calendarContainerEl.innerHTML = "";
