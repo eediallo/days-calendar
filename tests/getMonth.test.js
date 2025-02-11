@@ -1,9 +1,9 @@
-import { calendarConfig } from "../webCalendar/calendarConfig.js";
+import { datesConfig } from "../datesConfig.js";
 
 describe("getMonth", () => {
   test("should return current month", () => {
     const curruntDate = new Date();
-    const currentInput = calendarConfig.getMonth(curruntDate);
+    const currentInput = datesConfig.getMonth(curruntDate);
     expect(currentInput).toBe(1);
   });
 });

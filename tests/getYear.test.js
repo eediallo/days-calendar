@@ -1,9 +1,9 @@
-import { calendarConfig } from "../webCalendar/calendarConfig.js";
+import { datesConfig } from "../datesConfig.js";
 
 describe("getYear", () => {
   test("should return current year", () => {
     const curruntDate = new Date();
-    const currentInput = calendarConfig.getYear(curruntDate);
+    const currentInput = datesConfig.getYear(curruntDate);
     expect(currentInput).toBe(2025);
   });
 });

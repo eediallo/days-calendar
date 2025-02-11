@@ -9,7 +9,7 @@ const getStartingDay = (date) => {
   return firstDayOfMonth.getDay() === 0 ? 6 : firstDayOfMonth.getDay() - 1;
 };
 
-export const calendarConfig = {
+export const datesConfig = {
   getYear,
   getFirstDayOfMonth,
   getDaysInMonth,

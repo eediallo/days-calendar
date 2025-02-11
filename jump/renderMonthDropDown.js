@@ -1,10 +1,10 @@
-import { calendarConfig } from "../webCalendar/calendarConfig.js";
+import { datesConfig } from "../datesConfig.js";
 import { monthNames } from "../data/data.js";
 import { monthSelect } from "../queries.js";
 import { createMonthOption } from "./createMonthOption.js";
 
 export function renderMonthDropDown() {
-  const currentMonth = calendarConfig.getMonth(calendarConfig.currentDate);
+  const currentMonth = datesConfig.getMonth(datesConfig.currentDate);
   const optionList = monthNames.map((month, index) => {
     const option = createMonthOption(month);
     if (index === currentMonth) {

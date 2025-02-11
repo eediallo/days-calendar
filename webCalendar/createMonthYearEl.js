@@ -1,9 +1,9 @@
 import { monthYearEl } from "../queries.js";
 import { monthNames } from "../data/data.js";
-import { calendarConfig } from "./calendarConfig.js";
+import { datesConfig } from "../datesConfig.js";
 
 export function createMonthYearEl(date) {
-  const month = calendarConfig.getMonth(date);
-  const year = calendarConfig.getYear(date);
+  const month = datesConfig.getMonth(date);
+  const year = datesConfig.getYear(date);
   monthYearEl.textContent = `${monthNames[month].name} ${year}`;
 }
