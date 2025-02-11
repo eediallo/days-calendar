@@ -7,13 +7,9 @@ export function getCommemorativeDayDate(year, commemorativeDay) {
   );
   const dayName = commemorativeDay.dayName;
   const occurence = commemorativeDay.occurence;
-
   calendarConfig.currentDate = new Date(year, month, 1);
-
   advanceToNextWeekday(dayName);
-
   advanceToCommemorativeOccurrence(occurence, year, month, dayName);
-
   return calendarConfig.currentDate;
 }
 
