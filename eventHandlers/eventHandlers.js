@@ -9,3 +9,15 @@ export function jumpHandler() {
   datesConfig.currentDate = new Date(selectedYear, selectedMonth, 1); // Update the current date
   displayCalendar(datesConfig.currentDate);
 }
+
+export function nextMonthHandler() {
+  calendarContainerEl.innerHTML = "";
+  datesConfig.currentDate.setMonth(datesConfig.currentDate.getMonth() + 1);
+  displayCalendar(datesConfig.currentDate);
+}
+
+export function prevMonthHandler() {
+  calendarContainerEl.innerHTML = "";
+  datesConfig.currentDate.setMonth(datesConfig.currentDate.getMonth() - 1);
+  displayCalendar(datesConfig.currentDate);
+}
