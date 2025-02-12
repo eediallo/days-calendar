@@ -1,4 +1,4 @@
-import { datesConfig } from "../datesConfig.js";
+import { datesConfig } from "../config/datesConfig.js";
 import { yearSelect } from "../queries.js";
 import { createYearOption } from "./createYearOption.js";
 

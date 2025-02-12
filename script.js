@@ -1,4 +1,4 @@
-import { datesConfig } from "./datesConfig.js";
+import { datesConfig } from "./config/datesConfig.js";
 import { displayCalendar } from "./webCalendar/displayCalendar.js";
 import { attachEventHandlers } from "./eventHandlers/attachEventHandlers.js";
 import { renderDropDowns } from "./jump/renderDropDown.js";

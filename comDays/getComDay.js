@@ -1,4 +1,4 @@
-import { datesConfig } from "../datesConfig.js";
+import { datesConfig } from "../config/datesConfig.js";
 import { commemorativeDays, monthNames } from "../data/data.js";
 import { getCommemorativeDayDate } from "./getComDate.js";
 

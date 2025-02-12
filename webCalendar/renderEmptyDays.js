@@ -1,5 +1,5 @@
 import { calendarContainerEl } from "../queries.js";
-import { datesConfig } from "../datesConfig.js";
+import { datesConfig } from "../config/datesConfig.js";
 
 // Fill in the empty days before the first day of the month
 function createEmptyDay() {
