@@ -1,7 +1,11 @@
 import { commemorativeDays } from "../data/data.js";
 
 describe("CommemorativeDays", () => {
-  test("Should be of length 5", () => {
+  test("CommemorativeDays must be an array", () => {
+    expect(Array.isArray(commemorativeDays)).toBe(true);
+  });
+
+  test("Must be of length 5", () => {
     expect(commemorativeDays.length === 5).toBe(true);
   });
 
