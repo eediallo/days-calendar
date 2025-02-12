@@ -1,5 +1,5 @@
 import { datesConfig } from "../config/datesConfig.js";
-import { yearSelect } from "../queries.js";
+import { yearSelect } from "../config/queries.js";
 import { createYearOption } from "./createYearOption.js";
 
 export function renderYearDropDown() {

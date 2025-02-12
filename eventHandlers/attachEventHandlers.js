@@ -1,4 +1,4 @@
-import { goBtn, nexMonthEl, prevMonthEl } from "../queries.js";
+import { goBtn, nexMonthEl, prevMonthEl } from "../config/queries.js";
 import {
   jumpHandler,
   nextMonthHandler,

@@ -1,4 +1,4 @@
-import { monthYearEl } from "../queries.js";
+import { monthYearEl } from "../config/queries.js";
 import { monthNames } from "../data/data.js";
 import { datesConfig } from "../config/datesConfig.js";
 

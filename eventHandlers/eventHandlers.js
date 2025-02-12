@@ -1,4 +1,8 @@
-import { calendarContainerEl, monthSelect, yearSelect } from "../queries.js";
+import {
+  calendarContainerEl,
+  monthSelect,
+  yearSelect,
+} from "../config/queries.js";
 import { displayCalendar } from "../webCalendar/displayCalendar.js";
 import { datesConfig } from "../config/datesConfig.js";
 

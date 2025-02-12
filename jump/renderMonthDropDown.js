@@ -1,6 +1,6 @@
 import { datesConfig } from "../config/datesConfig.js";
 import { monthNames } from "../data/data.js";
-import { monthSelect } from "../queries.js";
+import { monthSelect } from "../config/queries.js";
 import { createMonthOption } from "./createMonthOption.js";
 
 export function renderMonthDropDown() {

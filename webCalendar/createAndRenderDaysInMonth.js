@@ -1,5 +1,5 @@
 import { getCommemorativeDay } from "../comDays/getComDay.js";
-import { calendarContainerEl } from "../queries.js";
+import { calendarContainerEl } from "../config/queries.js";
 import { datesConfig } from "../config/datesConfig.js";
 
 function createDayMonth(day) {
