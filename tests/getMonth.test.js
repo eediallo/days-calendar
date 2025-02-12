@@ -1,4 +1,4 @@
-import { datesConfig } from "../datesConfig.js";
+import { datesConfig } from "../config/datesConfig";
 
 describe("getMonth", () => {
   test("should return current month", () => {

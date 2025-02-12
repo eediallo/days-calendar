@@ -1,4 +1,4 @@
-import { datesConfig } from "../datesConfig.js";
+import { datesConfig } from "../config/datesConfig";
 
 describe("getDaysInMonth", () => {
   test("should return number of days of current Month", () => {
