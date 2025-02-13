@@ -1,7 +1,7 @@
 const monthYearEl = document.querySelector("#month-year");
 const calendarContainerEl = document.querySelector("#calendar-grid");
-const prevMonthEl = document.querySelector("#prev-month");
-const nexMonthEl = document.querySelector("#next-month");
+const prevMonthBtn = document.querySelector("#prev-month");
+const nexMonthBtn = document.querySelector("#next-month");
 const monthSelect = document.querySelector("#month-select");
 const yearSelect = document.querySelector("#year-select");
 const goBtn = document.querySelector("#go-button");
@@ -9,8 +9,8 @@ const goBtn = document.querySelector("#go-button");
 export {
   monthYearEl,
   calendarContainerEl,
-  prevMonthEl,
-  nexMonthEl,
+  prevMonthBtn,
+  nexMonthBtn,
   monthSelect,
   yearSelect,
   goBtn,

@@ -1,4 +1,4 @@
-import { goBtn, nexMonthEl, prevMonthEl } from "../config/queries.js";
+import { goBtn, prevMonthBtn, nexMonthBtn } from "../config/queries.js";
 import {
   jumpHandler,
   nextMonthHandler,
@@ -6,7 +6,7 @@ import {
 } from "./eventHandlers.js";
 
 export function attachEventHandlers() {
-  prevMonthEl.addEventListener("click", prevMonthHandler);
-  nexMonthEl.addEventListener("click", nextMonthHandler);
+  prevMonthBtn.addEventListener("click", prevMonthHandler);
+  nexMonthBtn.addEventListener("click", nextMonthHandler);
   goBtn.addEventListener("click", jumpHandler);
 }
