@@ -6,7 +6,7 @@ import {
 import { displayCalendar } from "../webCalendar/displayCalendar.js";
 import { datesConfig } from "../config/datesConfig.js";
 
-export function jumpHandler() {
+export function jumpToNextMonthAndYearHandler() {
   calendarContainerEl.innerHTML = "";
   const selectedMonth = parseInt(monthSelect.value);
   const selectedYear = parseInt(yearSelect.value);
