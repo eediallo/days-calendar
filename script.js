@@ -1,7 +1,7 @@
 import { datesConfig } from "./config/datesConfig.js";
 import { createAndDisplayCalendar } from "./webCalendar/createAnddisplayCalendar.js";
 import { attachEventHandlers } from "./eventHandlers/attachEventHandlers.js";
-import { renderDropDowns } from "./jump/renderDropDown.js";
+import { renderDropDowns } from "./jump/renderDropDowns.js";
 
 function main() {
   createAndDisplayCalendar(datesConfig.currentDate);
