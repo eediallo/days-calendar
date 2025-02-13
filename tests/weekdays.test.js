@@ -1,4 +1,4 @@
-import { weekdays } from "../data/data.js";
+import { weekdays } from "../data.js";
 
 describe("weekdays", () => {
   test("should be an array", () => {

@@ -1,4 +1,4 @@
-import { commemorativeDays } from "../data/data.js";
+import { commemorativeDays } from "../data.js";
 
 describe("CommemorativeDays", () => {
   test("CommemorativeDays must be an array", () => {

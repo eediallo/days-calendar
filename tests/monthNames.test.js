@@ -1,4 +1,4 @@
-import { monthNames } from "../data/data.js";
+import { monthNames } from "../data.js";
 
 describe("MonthNames", () => {
   test("should be an array", () => {
