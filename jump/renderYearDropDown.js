@@ -1,6 +1,12 @@
 import { datesConfig } from "../config/datesConfig.js";
 import { yearSelect } from "../config/queries.js";
-import { createYearOption } from "./createYearOption.js";
+
+export function createYearOption(year) {
+  const option = document.createElement("option");
+  option.value = year;
+  option.textContent = year;
+  return option;
+}
 
 export function renderYearDropDown() {
   const currentYear = datesConfig.getYear(datesConfig.currentDate);
