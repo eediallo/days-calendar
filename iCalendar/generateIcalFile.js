@@ -1,6 +1,7 @@
 import { commemorativeDays } from "../data.js";
 import { generateICalEntry } from "./generateCalEntry.js";
 import { getCommemorativeDayDate } from "../comDays/getComDate.js";
+import fs from "fs";
 
 function generateICalFile() {
   let icalContent = `BEGIN:VCALENDAR
@@ -21,4 +22,14 @@ METHOD:PUBLISH
   return icalContent;
 }
 
-console.log(generateICalFile());
+const icalContent = generateICalFile();
+fs.writeFile("./generated-days.ics.", icalContent, (err) => {
+  if (err) {
+    console.log(err);
+    return;
+  } else {
+    console.log(
+      "iCalendar file has been generated and saved as generated-days.ics"
+    );
+  }
+});

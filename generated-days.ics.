@@ -1,0 +1,446 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Special Days Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:q55lrluterr@commemorativeDays.com
+DTSTAMP:20201013T000000Z
+DTSTART;VALUE=DATE:20201013
+DTEND;VALUE=DATE:20201014
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:kau6nw3npvm@commemorativeDays.com
+DTSTAMP:20200509T000000Z
+DTSTART;VALUE=DATE:20200509
+DTEND;VALUE=DATE:20200510
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:piu4m1rf7h@commemorativeDays.com
+DTSTAMP:20200905T000000Z
+DTSTART;VALUE=DATE:20200905
+DTEND;VALUE=DATE:20200906
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:uz0t1yz316@commemorativeDays.com
+DTSTAMP:20200919T000000Z
+DTSTART;VALUE=DATE:20200919
+DTEND;VALUE=DATE:20200920
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:s4w2hwcixsl@commemorativeDays.com
+DTSTAMP:20201030T000000Z
+DTSTART;VALUE=DATE:20201030
+DTEND;VALUE=DATE:20201031
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:c2ygfuxkavg@commemorativeDays.com
+DTSTAMP:20211012T000000Z
+DTSTART;VALUE=DATE:20211012
+DTEND;VALUE=DATE:20211013
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:h7pmfisy8gb@commemorativeDays.com
+DTSTAMP:20210508T000000Z
+DTSTART;VALUE=DATE:20210508
+DTEND;VALUE=DATE:20210509
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:6vb24c37wa6@commemorativeDays.com
+DTSTAMP:20210904T000000Z
+DTSTART;VALUE=DATE:20210904
+DTEND;VALUE=DATE:20210905
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f57kst24n@commemorativeDays.com
+DTSTAMP:20210918T000000Z
+DTSTART;VALUE=DATE:20210918
+DTEND;VALUE=DATE:20210919
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:9iyc4o5hbna@commemorativeDays.com
+DTSTAMP:20211029T000000Z
+DTSTART;VALUE=DATE:20211029
+DTEND;VALUE=DATE:20211030
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:aoh9vt3xtkw@commemorativeDays.com
+DTSTAMP:20221011T000000Z
+DTSTART;VALUE=DATE:20221011
+DTEND;VALUE=DATE:20221012
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:yjs6o5u2n4@commemorativeDays.com
+DTSTAMP:20220514T000000Z
+DTSTART;VALUE=DATE:20220514
+DTEND;VALUE=DATE:20220515
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:9x7dbwkn9qr@commemorativeDays.com
+DTSTAMP:20220903T000000Z
+DTSTART;VALUE=DATE:20220903
+DTEND;VALUE=DATE:20220904
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:0yjx8zulkd9@commemorativeDays.com
+DTSTAMP:20220917T000000Z
+DTSTART;VALUE=DATE:20220917
+DTEND;VALUE=DATE:20220918
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:jxiarh09kr@commemorativeDays.com
+DTSTAMP:20221028T000000Z
+DTSTART;VALUE=DATE:20221028
+DTEND;VALUE=DATE:20221029
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:2b3bs2f8ngd@commemorativeDays.com
+DTSTAMP:20231010T000000Z
+DTSTART;VALUE=DATE:20231010
+DTEND;VALUE=DATE:20231011
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:zny297k2xya@commemorativeDays.com
+DTSTAMP:20230513T000000Z
+DTSTART;VALUE=DATE:20230513
+DTEND;VALUE=DATE:20230514
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:76p2incr7g4@commemorativeDays.com
+DTSTAMP:20230902T000000Z
+DTSTART;VALUE=DATE:20230902
+DTEND;VALUE=DATE:20230903
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:4ov681n96dq@commemorativeDays.com
+DTSTAMP:20230916T000000Z
+DTSTART;VALUE=DATE:20230916
+DTEND;VALUE=DATE:20230917
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:ghndfn1ghlc@commemorativeDays.com
+DTSTAMP:20231027T000000Z
+DTSTART;VALUE=DATE:20231027
+DTEND;VALUE=DATE:20231028
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:h415b1vb2fu@commemorativeDays.com
+DTSTAMP:20241008T000000Z
+DTSTART;VALUE=DATE:20241008
+DTEND;VALUE=DATE:20241009
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:pocj3al0eap@commemorativeDays.com
+DTSTAMP:20240511T000000Z
+DTSTART;VALUE=DATE:20240511
+DTEND;VALUE=DATE:20240512
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:aykknpgquq@commemorativeDays.com
+DTSTAMP:20240907T000000Z
+DTSTART;VALUE=DATE:20240907
+DTEND;VALUE=DATE:20240908
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:96un5rhiqfn@commemorativeDays.com
+DTSTAMP:20240921T000000Z
+DTSTART;VALUE=DATE:20240921
+DTEND;VALUE=DATE:20240922
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:52zpwzxef9l@commemorativeDays.com
+DTSTAMP:20241025T000000Z
+DTSTART;VALUE=DATE:20241025
+DTEND;VALUE=DATE:20241026
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:7y1gl4uayr5@commemorativeDays.com
+DTSTAMP:20251014T000000Z
+DTSTART;VALUE=DATE:20251014
+DTEND;VALUE=DATE:20251015
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:obz9zeo452@commemorativeDays.com
+DTSTAMP:20250510T000000Z
+DTSTART;VALUE=DATE:20250510
+DTEND;VALUE=DATE:20250511
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:zrbtlwtqivi@commemorativeDays.com
+DTSTAMP:20250906T000000Z
+DTSTART;VALUE=DATE:20250906
+DTEND;VALUE=DATE:20250907
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:sf9yvf2ntwb@commemorativeDays.com
+DTSTAMP:20250920T000000Z
+DTSTART;VALUE=DATE:20250920
+DTEND;VALUE=DATE:20250921
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:nyolxkknpni@commemorativeDays.com
+DTSTAMP:20251031T000000Z
+DTSTART;VALUE=DATE:20251031
+DTEND;VALUE=DATE:20251101
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:3465nm9ai42@commemorativeDays.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:yyvb6gluzr@commemorativeDays.com
+DTSTAMP:20260509T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:i9f5gh9ri1c@commemorativeDays.com
+DTSTAMP:20260905T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:k1zbxn1g8fd@commemorativeDays.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:7lbts08rlrs@commemorativeDays.com
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:sbyv07lp2o@commemorativeDays.com
+DTSTAMP:20271012T000000Z
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:5azyraxyjhr@commemorativeDays.com
+DTSTAMP:20270508T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:vgcumzj2p0c@commemorativeDays.com
+DTSTAMP:20270904T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:62ded43sf1y@commemorativeDays.com
+DTSTAMP:20270918T000000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:x6ynqa9n3x@commemorativeDays.com
+DTSTAMP:20271029T000000Z
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:1rl03mm3ka3@commemorativeDays.com
+DTSTAMP:20281010T000000Z
+DTSTART;VALUE=DATE:20281010
+DTEND;VALUE=DATE:20281011
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:kap9rxolred@commemorativeDays.com
+DTSTAMP:20280513T000000Z
+DTSTART;VALUE=DATE:20280513
+DTEND;VALUE=DATE:20280514
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:l0qnr8nwjyp@commemorativeDays.com
+DTSTAMP:20280902T000000Z
+DTSTART;VALUE=DATE:20280902
+DTEND;VALUE=DATE:20280903
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:jjv9kq0ee4a@commemorativeDays.com
+DTSTAMP:20280916T000000Z
+DTSTART;VALUE=DATE:20280916
+DTEND;VALUE=DATE:20280917
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:uotviivf72@commemorativeDays.com
+DTSTAMP:20281027T000000Z
+DTSTART;VALUE=DATE:20281027
+DTEND;VALUE=DATE:20281028
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:vi99bbgakx@commemorativeDays.com
+DTSTAMP:20291009T000000Z
+DTSTART;VALUE=DATE:20291009
+DTEND;VALUE=DATE:20291010
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:wpyg0mmg2tk@commemorativeDays.com
+DTSTAMP:20290512T000000Z
+DTSTART;VALUE=DATE:20290512
+DTEND;VALUE=DATE:20290513
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:k07h94jeopj@commemorativeDays.com
+DTSTAMP:20290901T000000Z
+DTSTART;VALUE=DATE:20290901
+DTEND;VALUE=DATE:20290902
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:lvn94eokvv@commemorativeDays.com
+DTSTAMP:20290915T000000Z
+DTSTART;VALUE=DATE:20290915
+DTEND;VALUE=DATE:20290916
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:2hxcnfylt6k@commemorativeDays.com
+DTSTAMP:20291026T000000Z
+DTSTART;VALUE=DATE:20291026
+DTEND;VALUE=DATE:20291027
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:012l2oyg7595q@commemorativeDays.com
+DTSTAMP:20301008T000000Z
+DTSTART;VALUE=DATE:20301008
+DTEND;VALUE=DATE:20301009
+SUMMARY:Ada Lovelace Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/ada.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:wiz31f8689g@commemorativeDays.com
+DTSTAMP:20300511T000000Z
+DTSTART;VALUE=DATE:20300511
+DTEND;VALUE=DATE:20300512
+SUMMARY:International Binturong Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/binturongs.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:l0ygk06p9b@commemorativeDays.com
+DTSTAMP:20300907T000000Z
+DTSTART;VALUE=DATE:20300907
+DTEND;VALUE=DATE:20300908
+SUMMARY:International Vulture Awareness Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/vultures.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:foimzsv8w5f@commemorativeDays.com
+DTSTAMP:20300921T000000Z
+DTSTART;VALUE=DATE:20300921
+DTEND;VALUE=DATE:20300922
+SUMMARY:International Red Panda Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/red-pandas.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:n84t9w1u2eb@commemorativeDays.com
+DTSTAMP:20301025T000000Z
+DTSTART;VALUE=DATE:20301025
+DTEND;VALUE=DATE:20301026
+SUMMARY:World Lemur Day
+DESCRIPTION:https://codeyourfuture.github.io/The-Piscine/days/lemurs.txt
+END:VEVENT
+END:VCALENDAR
