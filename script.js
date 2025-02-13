@@ -1,10 +1,10 @@
 import { datesConfig } from "./config/datesConfig.js";
-import { displayCalendar } from "./webCalendar/displayCalendar.js";
+import { createAndDisplayCalendar } from "./webCalendar/createAnddisplayCalendar.js";
 import { attachEventHandlers } from "./eventHandlers/attachEventHandlers.js";
 import { renderDropDowns } from "./jump/renderDropDown.js";
 
 function main() {
-  displayCalendar(datesConfig.currentDate);
+  createAndDisplayCalendar(datesConfig.currentDate);
   renderDropDowns();
   attachEventHandlers();
 }
