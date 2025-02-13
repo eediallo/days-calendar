@@ -1,4 +1,4 @@
-import { commemorativeDays } from "../data/data.js";
+import { commemorativeDays } from "../data.js";
 import { generateICalEntry } from "./generateCalEntry.js";
 import { getCommemorativeDayDate } from "../comDays/getComDate.js";
 

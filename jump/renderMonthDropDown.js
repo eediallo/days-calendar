@@ -1,5 +1,5 @@
 import { datesConfig } from "../config/datesConfig.js";
-import { monthNames } from "../data/data.js";
+import { monthNames } from "../data.js";
 import { monthSelect } from "../config/queries.js";
 import { createMonthOption } from "./createMonthOption.js";
 
