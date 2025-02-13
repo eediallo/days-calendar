@@ -10,7 +10,7 @@ export function createYearOption(year) {
 
 export function renderYearDropDown() {
   const currentYear = datesConfig.getYear(datesConfig.currentDate);
-  for (let year = currentYear - 125; year <= currentYear + 25; year++) {
+  for (let year = currentYear - 200; year <= currentYear + 50; year++) {
     const option = createYearOption(year);
     yearSelect.append(option);
   }
