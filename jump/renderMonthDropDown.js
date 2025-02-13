@@ -1,7 +1,13 @@
 import { datesConfig } from "../config/datesConfig.js";
 import { monthNames } from "../data.js";
 import { monthSelect } from "../config/queries.js";
-import { createMonthOption } from "./createMonthOption.js";
+
+export function createMonthOption(data) {
+  const option = document.createElement("option");
+  option.value = data.id;
+  option.textContent = data.name;
+  return option;
+}
 
 export function renderMonthDropDown() {
   const currentMonth = datesConfig.getMonth(datesConfig.currentDate);
