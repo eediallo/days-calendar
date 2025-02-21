@@ -3,6 +3,15 @@ import { generateICalEntry } from "./generateCalEntry.js";
 import { getCommemorativeDayDate } from "../comDays/getComDate.js";
 import fs from "fs";
 
+/**
+ * Generates an iCalendar (.ics) file content for commemorative days from 2020 to 2030.
+ *
+ * The generated iCalendar content includes the calendar version, product identifier,
+ * calendar scale, and method. It iterates through the years 2020 to 2030 and for each
+ * commemorative day, it calculates the date and generates an iCalendar entry.
+ *
+ * @returns {string} The generated iCalendar content as a string.
+ */
 function generateICalFile() {
   let icalContent = `BEGIN:VCALENDAR
 VERSION:2.0
